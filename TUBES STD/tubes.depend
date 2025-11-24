@@ -29,7 +29,7 @@
 	"customer.h"
 	<iomanip>
 
-1764000703 c:\users\mumu\documents\tubes-std\tubes std\customer.h
+1764002161 c:\users\mumu\documents\tubes-std\tubes std\customer.h
 	<iostream>
 
 1764001263 source:c:\users\mumu\documents\tubes-std\tubes std\laundry.cpp
@@ -37,7 +37,7 @@
 	"relation.h"
 	<iomanip>
 
-1764001401 c:\users\mumu\documents\tubes-std\tubes std\laundry.h
+1764002111 c:\users\mumu\documents\tubes-std\tubes std\laundry.h
 	<iostream>
 
 1764000898 c:\users\mumu\documents\tubes-std\tubes std\relation.h
@@ -45,7 +45,7 @@
 	"customer.h"
 	"laundry.h"
 
-1764001420 source:c:\users\mumu\documents\tubes-std\tubes std\main.cpp
+1764002154 source:c:\users\mumu\documents\tubes-std\tubes std\main.cpp
 	<iostream>
 	<iomanip>
 	"customer.h"

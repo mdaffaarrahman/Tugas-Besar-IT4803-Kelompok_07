@@ -1,12 +1,12 @@
-#ifndef STORE_CHILD_H_INCLUDED
-#define STORE_CHILD_H_INCLUDED
+#ifndef LAUNDRY_H_INCLUDED
+#define LAUNDRY_H_INCLUDED
 
 #include <iostream>
 using namespace std;
 
 struct laundry {
     string idLaundry;
-    float beratPakaian; // satuan: kilogram (kg)
+    float beratPakaian;
 };
 
 typedef struct laundry infotypeLaundry;
@@ -22,7 +22,6 @@ struct ListLaundry {
     addressLaundry last;
 };
 
-// Deklarasi fungsi dasar DLL
 void createListLaundry(ListLaundry &L);
 addressLaundry createElmListLaundry(infotypeLaundry dataLaundry);
 bool isEmptyListLaundry(ListLaundry L);
