@@ -1,5 +1,5 @@
-#ifndef STORE_PARENT_H_INCLUDED
-#define STORE_PARENT_H_INCLUDED
+#ifndef CUSTOMER_H_INCLUDED
+#define CUSTOMER_H_INCLUDED
 
 #include <iostream>
 using namespace std;
@@ -20,7 +20,6 @@ struct ListCustomer {
     addressCustomer first;
 };
 
-// Deklarasi fungsi dasar SLL
 void createListCustomer(ListCustomer &L);
 addressCustomer createElmListCustomer(infotypeCustomer dataCustomer);
 bool isEmptyListCustomer(ListCustomer L);

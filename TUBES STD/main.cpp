@@ -90,9 +90,7 @@ int main() {
             cin >> idLaundry;
             addressLaundry plaundry = searchLaundryByID(LL, idLaundry);
             if (plaundry != NULL) {
-                // Hapus relasi
                 deleteAllRelasiByLaundry(LR, plaundry);
-                // Hapus laundry dari DLL
                 if (plaundry == LL.first)
                     deleteFirstLaundry(LL, plaundry);
                 else if (plaundry == LL.last)
@@ -106,11 +104,9 @@ int main() {
             }
         }
         else if (pilih == 6) {
-            // Tampil semua laundry
             printDataLaundry(LL);
         }
         else if (pilih == 7) {
-            // Tampil semua relasi (customer -> laundry)
             printAllRelasi(LR);
         }
 
